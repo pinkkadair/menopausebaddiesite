@@ -116,14 +116,7 @@ function Hero({ taglineIndex, heroLayout, showStamp }) {
             </div>
           </div>
           <div className="hero-image-wrap">
-            <img className="hero-brand-art" src={window.MB_SITE.logoUrl} alt="Menopause Baddie seal" />
-            {showStamp && (
-              <div className="hero-stamp">
-                COHORT 01
-                <strong>Now</strong>
-                ENROLLING
-              </div>
-            )}
+            <img className="hero-lifestyle-art" src={window.MB_SITE.heroImageUrl} alt="Women in the Menopause Baddie community" />
           </div>
           <HeroStats />
         </div>

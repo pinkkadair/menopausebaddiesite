@@ -4,6 +4,7 @@ window.MB_SITE = {
   slogan: "We are bad, but that's good.",
   description: "We are bad, but that's good. Menopause Baddie is a luxury menopause support, wellness, education, events, chapter, and membership community for women 30+ across the United States.",
   logoUrl: "assets/menopause-baddie-logo.png",
+  heroImageUrl: "assets/menopause-baddie-hero.png",
   waitlistUrl: "https://menopause-baddie.myklpages.com/l/U77qh3",
   checkout: {
     clubMember: "https://buy.stripe.com/00w14n0hDepJghsgy21RC0q",
