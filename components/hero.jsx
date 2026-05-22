@@ -116,7 +116,7 @@ function Hero({ taglineIndex, heroLayout, showStamp }) {
             </div>
           </div>
           <div className="hero-image-wrap">
-            <img src="https://www.menopausebaddies.com/hero-lifestyle.png" alt="Women of the Hot Girls Club" />
+            <img className="hero-brand-art" src={window.MB_SITE.logoUrl} alt="Menopause Baddie seal" />
             {showStamp && (
               <div className="hero-stamp">
                 COHORT 01
