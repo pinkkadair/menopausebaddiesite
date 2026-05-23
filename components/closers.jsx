@@ -188,7 +188,7 @@ function Enrollment() {
         </div>
         <div className="join-form waitlist-card">
           <h3>Claim your city.</h3>
-          <p>Use the official Menopause Baddie waitlist page to share your email and city one time. That keeps signup, chapter updates, and launch notifications in the same place.</p>
+          <p>Use the official Menopause Baddie™ waitlist page to share your email and city one time. That keeps signup, chapter updates, and launch notifications in the same place.</p>
           <a className="btn btn-recruit btn-lg" href={window.MB_LINKS.waitlist}>Notify Me ✦</a>
           <a className="btn btn-ghost btn-lg" href="#membership">See Membership Options</a>
           <p className="form-note">No duplicate form here. This button opens the official waitlist signup page.</p>
@@ -204,7 +204,7 @@ function Footer() {
       <div className="footer-inner">
         <div className="footer-top">
           <div className="footer-brand">
-            <img className="footer-logo" src={window.MB_SITE.logoUrl} alt="Menopause Baddie logo" />
+            <img className="footer-logo" src={window.MB_SITE.logoUrl} alt="Menopause Baddie™ logo" />
             <h3>Stronger together.<br /><em>Bolder always.</em></h3>
             <div className="footer-slogan">We are bad, but that's good.</div>
             <p className="body" style={{ color: 'rgba(244,236,221,0.65)', maxWidth: 360 }}>
@@ -245,7 +245,7 @@ function Footer() {
           </div>
         </div>
         <div className="footer-bottom">
-          <div>© 2026 Menopause Baddie · All rights reserved</div>
+          <div>© 2026 Menopause Baddie™ · All rights reserved</div>
           <div><a href={window.MB_LINKS.contact}>Privacy</a> · <a href={window.MB_LINKS.contact}>Terms</a> · <a href={window.MB_LINKS.contact}>Accessibility</a></div>
         </div>
       </div>

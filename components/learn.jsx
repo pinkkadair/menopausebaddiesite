@@ -157,7 +157,7 @@ function StagesPanel() {
         ))}
       </div>
       <p className="mono small" style={{marginTop: 24}}>
-        ▲ Reviewed by Menopause Baddie clinical advisory board · last updated May 2026
+        ▲ Reviewed by Menopause Baddie™ clinical advisory board · last updated May 2026
       </p>
     </div>
   );
@@ -231,7 +231,7 @@ function AskPanel() {
         </div>
       </div>
       <div className="ask-response">
-        <div className="meta"><span className="live-dot"></span>Menopause Baddie Assistant · Beta</div>
+        <div className="meta"><span className="live-dot"></span>Menopause Baddie™ Assistant · Beta</div>
         {a ? (
           <div className="text" style={{whiteSpace: 'pre-wrap'}}>{a}</div>
         ) : loading ? (
@@ -275,7 +275,7 @@ function AdvocacyPanel() {
           </div>
           <div className="advocacy-stat">
             <div className="n">3</div>
-            <div className="l">State bills currently sponsored by Menopause Baddie advocacy</div>
+            <div className="l">State bills currently sponsored by Menopause Baddie™ advocacy</div>
           </div>
           <div className="advocacy-stat">
             <div className="n">1,240</div>

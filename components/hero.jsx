@@ -46,8 +46,8 @@ function Nav({ active, onTab }) {
     <nav className="nav">
       <div className="nav-inner">
         <div className="nav-brand">
-          <img className="brand-logo" src={window.MB_SITE.logoUrl} alt="Menopause Baddie logo" />
-          <span>Menopause Baddie</span>
+          <img className="brand-logo" src={window.MB_SITE.logoUrl} alt="Menopause Baddie™ logo" />
+          <span>Menopause Baddie™</span>
         </div>
         <div className="nav-links">
           {tabs.map((tab) => (
@@ -86,7 +86,7 @@ function Hero({ taglineIndex, heroLayout, showStamp }) {
     </h1>
   );
   const heroSlogan = (
-    <div className="brand-slogan hero-slogan" aria-label="Menopause Baddie slogan">
+    <div className="brand-slogan hero-slogan" aria-label="Menopause Baddie™ slogan">
       We are bad, <em>but that's good.</em>
     </div>
   );
@@ -116,7 +116,7 @@ function Hero({ taglineIndex, heroLayout, showStamp }) {
             </div>
           </div>
           <div className="hero-image-wrap">
-            <img className="hero-lifestyle-art" src={window.MB_SITE.heroImageUrl} alt="Women in the Menopause Baddie community" />
+            <img className="hero-lifestyle-art" src={window.MB_SITE.heroImageUrl} alt="Women in the Menopause Baddie™ community" />
           </div>
           <HeroStats />
         </div>
@@ -176,7 +176,7 @@ function Manifesto() {
             "normal," handed an antidepressant, and sent home. <strong style={{color:'var(--ivory)'}}>That ends here.</strong>
           </p>
           <p className="body-lg" style={{marginTop: 20}}>
-            Menopause Baddie is the membership, the movement, and the standing
+            Menopause Baddie™ is the membership, the movement, and the standing
             order to stop waiting. We replace silence with strategy, dismissal with
             data, and "just deal with it" with the largest sisterhood of women
             taking action on their own terms.
